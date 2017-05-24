@@ -2,13 +2,13 @@
 
 import click
 
+from spro import optimize
+
 
 @click.command()
 def main(args=None):
     """Console script for spro"""
-    click.echo("Replace this message by putting your code into "
-               "spro.cli.main")
-    click.echo("See click documentation at http://click.pocoo.org/")
+    optimize()
 
 
 if __name__ == "__main__":

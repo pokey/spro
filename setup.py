@@ -3,6 +3,7 @@
 
 from setuptools import setup
 
+
 with open('README.md') as readme_file:
     readme = readme_file.read()
 
@@ -33,7 +34,7 @@ setup(
                  'spro'},
     entry_points={
         'console_scripts': [
-            'spro=spro.cli:main'
+            'spro=spro.cli:cli'
         ]
     },
     include_package_data=True,
